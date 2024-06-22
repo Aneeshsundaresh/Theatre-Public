@@ -1,0 +1,5 @@
+#creating the connection
+import mysql.connector as conn
+
+mydb = conn.connect(host="localhost",user="root",password="tiger123")
+mycursor = mydb.cursor()
